@@ -38,3 +38,4 @@ If you are venturing to Denver, a few recommendations on places to go and eat.  
 ## Neighborhoods
 * [RiNo Neighborhood](http://www.rivernorthart.com/) There's a lot going on in the River North area of Denver.  You'll find [Epic Brewing](http://www.epicbrewing.com/), [Black Shirt Brewing Co.](http://www.blackshirtbrewingco.com/), [Our Mutual Friend](http://www.omfbeer.com/) among other breweries, restaurants, cafes in this burgeoning area Norteast of LoDo on Larimer Street.
 * [Cherry Creek North](http://cherrycreeknorth.com/) One of the "tony" places in Denver.  Lots of shops and boutiques.
+* [Union Station](http://unionstationindenver.com/) Newly renovated Union Station is a really cool place to check out.  The "Terminal Bar" has a great selectoin of beers.
