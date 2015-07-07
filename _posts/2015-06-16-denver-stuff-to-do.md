@@ -7,6 +7,7 @@ If you are venturing to Denver, a few recommendations on places to go and eat.  
 
 ## Breakfast
 * [Snooze Union Station](http://snoozeeatery.com/) A delicious breakfast spot with its newest location in the renovated Union Station. (LoDo)
+* [Rosenberg's Bagels](http://www.rosenbergsbagels.com/) Best NY-style bagel in Denver.  Amazing lox selection.
 
 ## Beer & Cocktails
 * [Hogshead Brewery](http://www.hogsheadbrewery.com/) These guy specialize in English style beers.  Really well done. (Highlands)
@@ -23,6 +24,7 @@ If you are venturing to Denver, a few recommendations on places to go and eat.  
 * [Acorn at the Source](http://www.denveracorn.com/) Small plates, the vast majority are really scrumptious.  Can get pretty expensive.  The Source is somewhat inspired by the Ferry Building in San Francisco.  (RiNo)
 * [Watercourse](http://www.watercoursefoods.com/) A vegan-only restaurant with creative takes on traditional fare. (Uptown)
 * [Cherry Cricket](http://cherrycricket.com/) Hangover cure? Yes.  Sports? Yes Great burgers, wings, bloody marys?  Yes, this is the place.  It's one of the stalwart regular people places in Cherry Creek. (Cherry Creek North)
+* [The Mercantile](http://mercantiledenver.com/) Same owners as Fruition, but in the new remodeled Union Station.  Excellent sandwiches at lunch, great dinners as well. (LoDo)
 
 ## Espresso
 * [Crema](http://cremacoffeehouse.net/) Fantastic espresso-based drinks and food. (RiNo)
