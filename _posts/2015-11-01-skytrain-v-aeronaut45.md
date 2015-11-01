@@ -9,7 +9,7 @@ As a fan of "one bag" travel (even though I usually have a second laptop bag), I
 
 # Packing List
 
-My aim was to pack enough clothes for 7 days.  Since I work in the software industry, I rarely wear a suit.  For those of you looking for suit packing advice, I'm afraid this post won't really help you.  (Aside: I did pack a suit using the bundle method last year for a 10 day trip, and it worked well.  Of course, I never wore it.)  Keep in mind that heavier and bulkier items, like a jacket or boots, would be worn on the plane.  One oversight is that I didn't include sweaters or fleeces in this experiement, and so this would represent a trip to a mild climate like Northern California or fall in the North East, as opposed to winter in New York City.  I also omitted exercise and sleeping clothes.  Aside from sneakers, those don't take much space, and both bags have plenty of room to accept more than this packing list.
+My aim was to pack enough clothes for 7 days.  Since I work in the software industry, I rarely wear a suit.  For those of you looking for suit packing advice, I'm afraid this post won't really help you.  (Aside: I did pack a suit using the bundle method last year for a 10 day trip, and it worked well.  Of course, I never wore it.)  Keep in mind that heavier and bulkier items, like a jacket or boots, would be worn on the plane.  One oversight is that I didn't include sweaters or fleeces in this experiment, and so this would represent a trip to a mild climate like Northern California or fall in the North East, as opposed to winter in New York City.  I also omitted exercise and sleeping clothes.  Aside from sneakers, those don't take much space, and both bags have plenty of room to accept more than this packing list.
 
 * 4 collared shirts
 * 4 T-shirts
@@ -72,7 +72,7 @@ This resulted in a less flat bag, but a roomy second packing area.
 
 ## Aeronaut Packing Cubes
 
-To accomodate for the 18" length of the Specter packing sleeve for shirts, I had one of the end pouches zipped to the interior (I believe I chose the bottom one when used as a backpack), while the other one was left unzipped.  This forced me to swap the shoes from the exterior pockets to the main packing area, and put my socks/underwear cube in the exterior pocket.
+To accommodate for the 18" length of the Specter packing sleeve for shirts, I had one of the end pouches zipped to the interior (I believe I chose the bottom one when used as a backpack), while the other one was left unzipped.  This forced me to swap the shoes from the exterior pockets to the main packing area, and put my socks/underwear cube in the exterior pocket.
 
 ![image](/assets/redoxx-tombihn/tb-cubes.jpg)
 
