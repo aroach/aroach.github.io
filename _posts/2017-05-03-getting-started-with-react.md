@@ -31,3 +31,5 @@ I felt like the nature of my app needed client-side routing.  Part of this was p
 I started with React Router 4, which was brand-spankin' new.  I managed to get a version of my app using version 4, however I found that there are VERY FEW examples that use version 4.  I ended up downgrading to 2.7, since most of the examples and tutorials I came across used version 2.x. If you do want to use version 4, I came across one example that was in a blog post, and reached out to the author [@bodiddlie](https://twitter.com/bodiddlie) and he [tweeted the link to his github repo](https://twitter.com/bodiddlie/status/852271980879396865). Sophie's cat catalog (the CRUD example above) also uses react router 2.x. 
 
 Finally, I need to invest some more time in ***testing of React and Redux***, and found [this article](https://medium.com/javascript-inside/some-thoughts-on-testing-react-redux-applications-8571fbc1b78f) provided a nice practical summary on ways to test.
+
+Many thanks to everyone who’s put up examples, docs, and tutorials!
