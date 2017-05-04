@@ -1,4 +1,4 @@
 name: Ashley Roach
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: rouge
 exclude: [vendor]
