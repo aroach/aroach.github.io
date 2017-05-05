@@ -3,8 +3,9 @@ layout: post
 title: Teaching My Kids Linux 
 ---
 
-My kids liked the idea of learning programming, but they really weren't
-making much progress and would lose interest pretty quickly.  
+My kids (9 and 12 years old) liked the idea of learning programming, but
+they really weren't making much progress and would lose interest pretty
+quickly.  
 
 As a result, I turned my attention to something more tangible for them.
 After brainstorming a bit, and figuring sysadmin skills are good to know
