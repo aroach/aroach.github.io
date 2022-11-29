@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL: Moving Notes to Obsidian
+title: TIL Moving Notes to Obsidian
 ---
 
 After reading [this response to a Hacker News post](https://news.ycombinator.com/item?id=33754701), I was curious about this Zettelkasten concept. In turn, I purchased the "How to Take Smart Notes" book.
