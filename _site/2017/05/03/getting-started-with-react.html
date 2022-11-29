@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tips on Getting Started with React</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Ashley Roach</a></h1>
+            <a class="extra" href="/">home</a>
+          </div>
+
+          <h2>Tips on Getting Started with React</h2>
+<p class="meta">03 May 2017</p>
+
+<div class="post">
+<p>I’ve been working on a new Node project.  As a fairly longtime Angular 1 user, and after looking at Angular 2, I decided to try out React for the front-end. While React seems pretty straightforward, I’d say it’s actually not.</p>
+
+<p>So here goes. I’ve tried to compile my opinions based on how my brain works for getting started with React.  If you find this post, I hope it will save you some time Googling for examples and tutorials.</p>
+
+<p><strong><em>The first project to know about is the <a href="https://github.com/facebookincubator/create-react-app">Create-react-app</a>.</em></strong> This is a generator for creating a React app.  It was created by Facebook, and has tons of features.  Of its benefits, it seems to allow you to skip setting up webpack.  I started with this and so far haven’t come across any limitations or issues.  (Famous last words.)  A couple of standout sections from the readme are:</p>
+
+<ul>
+  <li><a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-apps-with-client-side-routing">Serving Apps with Client-Side Routing</a>.  I learned that in a Node app you can put your fallback route after routes you want to serve.  For example, I wanted to serve my REST API on <code class="language-plaintext highlighter-rouge">/api</code>, but allow the client to handle the rest of the requests.  So, I just needed to order my <code class="language-plaintext highlighter-rouge">app.get('/api', function(req, res){...});</code> statements with <code class="language-plaintext highlighter-rouge">app.get('/*', function(req, res){...});</code> as the last one to match.</li>
+  <li><a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development">Proxying API Requests in Development</a>.  Since I have an API and client served up by the same app, I really needed this.</li>
+  <li><a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables">Adding Custom Environment Variables</a>  Note that this does a replace as opposed to a runtime substitution since React projects are built artifacts.</li>
+</ul>
+
+<p><strong><em>Bite the bullet and learn <a href="http://redux.js.org/">Redux</a>.</em></strong> At first, I thought that I didn’t need something like Redux to manage application state globally.  Once you get your head around <code class="language-plaintext highlighter-rouge">connect</code>, <code class="language-plaintext highlighter-rouge">mapStateToProps()</code>, and so on, having a global state store made React much easier to deal with for me. Of course, it all depends on the complexity of your app.  Here are a few Redux video series and tutorials that I found invaluable:</p>
+
+<p>These videos are from the founder of Redux, Dan Abramov, and they are excellent:</p>
+
+<ul>
+  <li><a href="https://egghead.io/series/getting-started-with-redux">Part 1: Getting Started with Redux</a></li>
+  <li><a href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React applications</a></li>
+</ul>
+
+<p>Kurt Weiberth has created his own <a href="https://www.youtube.com/playlist?list=PLQDnxXqV213JJFtDaG0aE9vqvp6Wm7nBg">tutorial series on React + Redux</a>, and while I watched these before the series by Dan (I think you should start with Dan’s perhaps), Kurt’s are really helpful as well!</p>
+
+<p><a href="https://github.com/gothinkster/react-redux-realworld-example-app">React+Redux Real World Example</a>: As you might observe, the Redux examples above deal with a Todo list app, and while I recently discovered the second part of Dan’s tutorials are more real world, I found this “real world” example to be helpful as well.</p>
+
+<p><a href="http://www.thegreatcodeadventure.com/building-a-simple-crud-app-with-react-redux-part-1/">Creating a CRUD React+Redux</a> was the example I followed when first deciding to try out Redux.  There is a lot of good information in Sophie’s posts, but I think I would’ve understood things better had I reviewed Dan’s series before checking this one out.</p>
+
+<p>I felt like the nature of my app needed client-side routing.  Part of this was probably based on my experience with Angular.  As a result, <strong><em>I encourage you to check out <a href="https://github.com/ReactTraining/react-router/blob/v2.8.1/docs/guides/README.md">React Router 2.x</a>.</em></strong> It’s definitely different than how Angular’s ngRoute or ui-router work, and so it helped me to find examples.</p>
+
+<p>I started with React Router 4, which was brand-spankin’ new.  I managed to get a version of my app using version 4, however I found that there are VERY FEW examples that use version 4.  I ended up downgrading to 2.7, since most of the examples and tutorials I came across used version 2.x. If you do want to use version 4, I came across one example that was in a blog post, and reached out to the author <a href="https://twitter.com/bodiddlie">@bodiddlie</a> and he <a href="https://twitter.com/bodiddlie/status/852271980879396865">tweeted the link to his github repo</a>. Sophie’s cat catalog (the CRUD example above) also uses react router 2.x.</p>
+
+<p>Finally, I need to invest some more time in <strong><em>testing of React and Redux</em></strong>, and found <a href="https://medium.com/javascript-inside/some-thoughts-on-testing-react-redux-applications-8571fbc1b78f">this article</a> provided a nice practical summary on ways to test.</p>
+
+<p>Many thanks to everyone who’s put up examples, docs, and tutorials!</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Ashley Roach<br />
+                API Architect<br />
+                Product Manager<br/>
+		Coder<br />
+                Music Fan<br />
+                &copy; 2013-2017 Ashley Roach<br />
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/aroach">github.com/aroach</a><br />
+                <a href="https://twitter.com/aroach">twitter.com/aroach</a><br />
+                <a href="https://www.linkedin.com/in/ashleyroach">linkedin.com/in/ashleyroach</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
